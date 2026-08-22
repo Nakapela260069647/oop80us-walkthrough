@@ -1,0 +1,8 @@
+# compiled binaries
+ex1
+ex2
+ex3
+ex4
+ex5
+*.o
+a.out
