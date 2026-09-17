@@ -9,10 +9,14 @@ int main()
     cin >> marks;
 
     // BUG: = writes 50 into marks. Use == to ASK.
-    if (marks = 50)
+    if (marks >= 50)
+    {
         cout << "Exactly fifty" << endl;
+    }
     else
-        cout << "Not fifty" << endl;
+    {cout << "Not fifty" << endl;
+        
+    }
 
     cout << "marks is still " << marks << endl;
     return 0;
